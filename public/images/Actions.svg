@@ -1,0 +1,23 @@
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_14_6059)">
+<rect x="2" y="1" width="40" height="40" rx="20" fill="white"/>
+<rect x="2.5" y="1.5" width="39" height="39" rx="19.5" stroke="#E5E5E5"/>
+<g clip-path="url(#clip0_14_6059)">
+<path d="M21.1665 14.3333H17.6665C16.2664 14.3333 15.5663 14.3333 15.0315 14.6058C14.5611 14.8455 14.1787 15.228 13.939 15.6984C13.6665 16.2331 13.6665 16.9332 13.6665 18.3333V25.3333C13.6665 26.7335 13.6665 27.4335 13.939 27.9683C14.1787 28.4387 14.5611 28.8212 15.0315 29.0609C15.5663 29.3333 16.2664 29.3333 17.6665 29.3333H24.6665C26.0666 29.3333 26.7667 29.3333 27.3015 29.0609C27.7719 28.8212 28.1543 28.4387 28.394 27.9683C28.6665 27.4335 28.6665 26.7335 28.6665 25.3333V21.8333M18.6665 24.3333H20.0619C20.4696 24.3333 20.6734 24.3333 20.8652 24.2873C21.0353 24.2465 21.1979 24.1791 21.347 24.0877C21.5152 23.9847 21.6593 23.8405 21.9476 23.5523L29.9165 15.5833C30.6069 14.893 30.6069 13.7737 29.9165 13.0833C29.2261 12.393 28.1069 12.393 27.4165 13.0833L19.4475 21.0523C19.1593 21.3405 19.0152 21.4847 18.9121 21.6529C18.8207 21.802 18.7534 21.9646 18.7125 22.1346C18.6665 22.3264 18.6665 22.5303 18.6665 22.9379V24.3333Z" stroke="#0A0A0A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_14_6059" x="0" y="0" width="44" height="44" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.05 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_14_6059"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_14_6059" result="shape"/>
+</filter>
+<clipPath id="clip0_14_6059">
+<rect width="20" height="20" fill="white" transform="translate(12 11)"/>
+</clipPath>
+</defs>
+</svg>
