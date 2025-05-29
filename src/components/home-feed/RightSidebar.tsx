@@ -81,14 +81,14 @@ const RightSidebar: React.FC = () => {
 
   return (
     <aside
-      className="xl:w-80 lg:w-56 fixed top-20 right-0 h-full overflow-y-auto scrollbar-hide bg-gray-50 lg:p-2"
+      className="xl:w-80 lg:w-56 fixed md:top-20 right-0 h-full overflow-y-auto scrollbar-hide bg-gray-50 lg:p-2"
       style={{ height: "-webkit-fill-available" }}
     >
       <div className="space-y-6">
         <div className="bg-white rounded-xl shadow-sm">
           <div className="flex items-center flex-wrap justify-between p-4 border-b border-[#E5E5E5]">
             <h3 className="font-semibold text-gray-900">Suggested Groups</h3>
-            <button className=" text-sm border p-1 border-[#E5E5E5] px-3 rounded-full font-medium  transition-colors">
+            <button className=" text-sm border p-1 text-[#0A0A0A] border-[#E5E5E5] px-3 rounded-full font-medium  transition-colors">
               View All
             </button>
           </div>
@@ -139,7 +139,7 @@ const RightSidebar: React.FC = () => {
                       {group.memberCount}
                     </span>
                   </div>
-                  <button className=" border border-[#E5E5E5] px-3 py-1.5 rounded-full cursor-pointer text-xs font-medium transition-colors">
+                  <button className=" border border-[#E5E5E5] text-[#0A0A0A] px-3 py-1.5 rounded-full cursor-pointer text-xs font-medium transition-colors">
                     Join Group
                   </button>
                 </div>
@@ -150,7 +150,7 @@ const RightSidebar: React.FC = () => {
         <div className="bg-white rounded-xl shadow-sm">
           <div className="flex items-center justify-between p-4 border-b border-[#E5E5E5]">
             <h3 className="font-semibold text-gray-900">Your Inbox</h3>
-            <button className=" text-sm border p-1 px-3 border-[#E5E5E5] rounded-full font-medium  transition-colors">
+            <button className=" text-sm border p-1 px-3 text-[#0A0A0A] border-[#E5E5E5] rounded-full font-medium  transition-colors">
               View All
             </button>
           </div>

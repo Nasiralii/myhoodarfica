@@ -1,4 +1,3 @@
-import Navbar from "@/components/common/Navbar";
 import Sidebar from "@/components/home-feed/Sidebar";
 import SearchBar from "@/SearchBar";
 import "@/styles/globals.css";
@@ -11,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   
   // Early return for landing and signup pages
-  if (router.pathname === "/" || router.pathname === "/SignUp") {
+  if (router.pathname === "/" || router.pathname === "/SignUp" || router.pathname==="/SignIn") {
     return <Component {...pageProps} />;
   }
   
@@ -41,7 +40,7 @@ export default function App({ Component, pageProps }: AppProps) {
           isMobileMenuOpen={isMobileMenuOpen}
           onMenuClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         />
-        <div className="flex-1 overflow-y-auto mt-20">
+        <div className="flex-1 overflow-y-auto mt-14">
           <Component {...pageProps} />
         </div>
       </div>

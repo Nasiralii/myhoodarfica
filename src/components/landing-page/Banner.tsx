@@ -20,7 +20,7 @@ const Banner = () => {
           <button className="bg-[#6556FE] cursor-pointer text-white px-8 py-3 rounded-lg font-semibold transition-colors duration-200 shadow-lg w-full sm:w-auto">
             Join Your Hood
           </button>
-          <button className="border cursor-pointer border-[#D0D5DD] rounded-lg curst px-8 py-3 font-semibold transition-colors duration-200 w-full sm:w-auto">
+          <button className="border cursor-pointer border-[#D0D5DD] text-black rounded-lg curst px-8 py-3 font-semibold transition-colors duration-200 w-full sm:w-auto">
             Login
           </button>
         </div>

@@ -93,7 +93,7 @@ const ExploreEvents: React.FC = () => {
               <select
                 value={selectedLocation}
                 onChange={(e) => setSelectedLocation(e.target.value)}
-                className=" bg-white border border-[#E5E5E5] rounded-full px-6 py-3 text-sm focus:outline-none cursor-pointer "
+                className=" bg-white border border-[#E5E5E5] text-[#0A0A0A] rounded-full px-6 py-3 text-sm focus:outline-none cursor-pointer "
               >
                 <option value="">Location</option>
                 <option value="lagos">Lagos</option>
@@ -113,7 +113,7 @@ const ExploreEvents: React.FC = () => {
               <select
                 value={selectedCategory}
                 onChange={(e) => setSelectedCategory(e.target.value)}
-                className=" bg-white border border-[#E5E5E5] rounded-full px-6 py-3 pr-8 text-sm focus:outline-none cursor-pointer "
+                className=" bg-white border border-[#E5E5E5] text-[#0A0A0A] rounded-full px-6 py-3 pr-8 text-sm focus:outline-none cursor-pointer "
               >
                 <option value="">Categories</option>
                 <option value="community">Community</option>
@@ -135,7 +135,7 @@ const ExploreEvents: React.FC = () => {
               <select
                 value={selectedDate}
                 onChange={(e) => setSelectedDate(e.target.value)}
-                className=" bg-white border border-[#E5E5E5] rounded-full px-6 py-3 text-sm focus:outline-none cursor-pointer "
+                className=" bg-white border border-[#E5E5E5] text-[#0A0A0A] rounded-full px-6 py-3 text-sm focus:outline-none cursor-pointer "
               >
                 <option value="">Date</option>
                 <option value="today">Today</option>
@@ -155,7 +155,7 @@ const ExploreEvents: React.FC = () => {
               <select
                 value={selectedTime}
                 onChange={(e) => setSelectedTime(e.target.value)}
-                className="bg-white border border-[#E5E5E5] rounded-full px-6 py-3 text-sm focus:outline-none cursor-pointer "
+                className="bg-white border border-[#E5E5E5] text-[#0A0A0A] rounded-full px-6 py-3 text-sm focus:outline-none cursor-pointer "
               >
                 <option value="">Time</option>
                 <option value="morning">Morning</option>
@@ -172,14 +172,14 @@ const ExploreEvents: React.FC = () => {
           </div>
 
           {/* Sort By */}
-          <div className="flex border bg-white border-[#E5E5E5] rounded-full px-2 py-3 items-center justify-between">
+          <div className="flex border bg-white border-[#E5E5E5] rounded-full md:mt-0 mt-2 px-2 py-3 items-center justify-between">
             <div className="flex items-center space-x-2 pointer-events-none">
               <img src="/images/sort-by.svg" alt="Sort" className="w-5 h-5" />
               <span className="text-sm text-gray-600">Sort by:</span>
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value)}
-                className="appearance bg-transparent border-none text-sm font-medium focus:outline-none cursor-pointer pointer-events-auto"
+                className="appearance bg-transparent text-[#0a0a0a7b] border-none text-sm font-medium focus:outline-none cursor-pointer pointer-events-auto"
               >
                 <option value="Upcoming">Upcoming</option>
                 <option value="Most Popular">Most Popular</option>
@@ -191,11 +191,11 @@ const ExploreEvents: React.FC = () => {
         </div>
 
         {/* Events Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {events.map((event) => (
             <div
               key={event.id}
-              className="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow"
+              className="bg-white rounded-xl overflow-hidden border border-[#E5E5E5] hover:shadow-md transition-shadow"
             >
               {/* Event Image */}
               <div className="relative h-[229px] rounded-2xl w-full p-2 bg-white">
@@ -207,9 +207,9 @@ const ExploreEvents: React.FC = () => {
               </div>
 
               {/* Event Info */}
-              <div className="p-4">
+              <div className="md:p-4 p-3">
                 {/* Date, Time, Location */}
-                <div className="flex items-center space-x-4 text-xs text-gray-500 mb-3">
+                <div className="flex items-center md:mt-1.5 mt-3 space-x-4 text-xs text-gray-500 mb-3">
                   <div className="flex items-center space-x-1">
                     <img
                       src="/images/date.svg"

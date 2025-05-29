@@ -48,7 +48,7 @@ const CoreFeatures: React.FC = () => {
   ];
 
   return (
-    <div className="w-full container mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
+    <div className="w-full container bg-white mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
       {/* Header Section */}
       <div className="text-center mb-12">
       <div className="inline-flex items-center px-3 py-1 border border-[#2E0DF9CC] rounded-full bg-[#2E0DF90A] text-[#6556FE] font-bold cursor-pointer mb-4 w-fit">
@@ -60,7 +60,7 @@ const CoreFeatures: React.FC = () => {
       </div>
 
       {/* Features Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 bg- lg:grid-cols-3 gap-6 lg:gap-8">
         {/* First Row - 3 items */}
         {features.slice(0, 3).map((feature) => (
           <div

@@ -39,7 +39,7 @@ const InviteModal: React.FC<InviteModalProps> = () => {
   };
 
   return (
-    <div className="min-h-[89vh] flex items-center justify-center p-4">
+    <div className="min-h-[89vh] flex bg-[#FAFAFA] items-center justify-center p-4">
       {/* Main Content */}
       <div className="text-center max-w-md">
         {/* Logo Icon */}
@@ -47,13 +47,13 @@ const InviteModal: React.FC<InviteModalProps> = () => {
           <img src="/images/custom-icon.png" />
         </div>
 
-        <h1 className="text-4xl font-bold mb-4">
+        <h1 className="text-4xl font-bold text-[#0A0A0A] mb-4">
           Help Build Your
           <br />
           Neighborhood Online!
         </h1>
 
-        <p className="text-lg mb-8 leading-relaxed">
+        <p className="text-lg mb-8 text-[#737373] leading-relaxed">
           Invite friends, family, and neighbors to join MyHoodAfrica and
           strengthen your local community.
         </p>

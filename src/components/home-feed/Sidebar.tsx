@@ -164,7 +164,7 @@ const Sidebar: React.FC<SidebarProps> = ({ className = '', onClose }) => {
               <button
                 key={index}
                 onClick={() => handleItemClick(item.href)}
-                className={`w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors ${
+                className={`w-full cursor-pointer flex items-center space-x-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors ${
                   isActive(item.href)
                     ? 'shadow text-black shadow-[#E5E5E5]'
                     : 'text-[#737373] hover:bg-gray-50 hover:text-black'
@@ -189,7 +189,7 @@ const Sidebar: React.FC<SidebarProps> = ({ className = '', onClose }) => {
               <button
                 key={index}
                 onClick={() => handleItemClick(item.href)}
-                className={`w-full flex items-center space-x-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors ${
+                className={`w-full flex items-center cursor-pointer space-x-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-colors ${
                   isActive(item.href)
                     ? 'shadow text-black shadow-[#E5E5E5]'
                     : 'text-[#737373] hover:bg-gray-50 hover:text-black'
