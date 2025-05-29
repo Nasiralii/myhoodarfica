@@ -33,9 +33,9 @@ const ExploreEvents: React.FC = () => {
       image: "/images/image-13.svg",
       attendees: 58,
       attendeeAvatars: [
-        "/images/avatar.svg",
-        "/images/avatar.svg",
-        "/images/avatar.svg",
+        "/images/Avatar.svg",
+        "/images/Avatar.svg",
+        "/images/Avatar.svg",
       ],
     },
     {
@@ -48,9 +48,9 @@ const ExploreEvents: React.FC = () => {
       image: "/images/image-13.svg",
       attendees: 32,
       attendeeAvatars: [
-        "/images/avatar.svg",
-        "/images/avatar.svg",
-        "/images/avatar.svg",
+        "/images/Avatar.svg",
+        "/images/Avatar.svg",
+        "/images/Avatar.svg",
       ],
     },
     {
@@ -63,9 +63,9 @@ const ExploreEvents: React.FC = () => {
       image: "/images/image-13.svg",
       attendees: 58,
       attendeeAvatars: [
-        "/images/avatar.svg",
-        "/images/avatar.svg",
-        "/images/avatar.svg",
+        "/images/Avatar.svg",
+        "/images/Avatar.svg",
+        "/images/Avatar.svg",
       ],
     },
   ]);

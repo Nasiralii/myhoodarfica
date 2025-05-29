@@ -37,7 +37,7 @@ const ForSale: React.FC = () => {
       image: "/images/samsung.jpg",
       seller: {
         name: "Mercy N",
-        avatar: "/images/avatar.svg",
+        avatar: "/images/Avatar.svg",
         location: "Nairobi",
         timeAgo: "1 day ago",
       },
@@ -49,7 +49,7 @@ const ForSale: React.FC = () => {
       image: "/images/samsung.jpg",
       seller: {
         name: "Chika A",
-        avatar: "/images/avatar.svg",
+        avatar: "/images/Avatar.svg",
         location: "Lagos",
         timeAgo: "20 hours ago",
       },

@@ -29,7 +29,7 @@ const RightSidebar: React.FC = () => {
       description:
         "A place for tech lovers in Lagos to share news, events, and job tips.",
       memberCount: 850,
-      avatar: "/images/avatar.svg",
+      avatar: "/images/Avatar.svg",
     },
     {
       id: "2",
@@ -54,7 +54,7 @@ const RightSidebar: React.FC = () => {
     {
       id: "1",
       userName: "Phoenix Baker",
-      avatar: "/images/avatar.svg",
+      avatar: "/images/Avatar.svg",
       message:
         "Hey Olivia, The product query API you have shared on the for sale blog page is still available",
       time: "5min ago",
@@ -63,7 +63,7 @@ const RightSidebar: React.FC = () => {
     {
       id: "2",
       userName: "Phoenix Baker",
-      avatar: "/images/avatar.svg",
+      avatar: "/images/Avatar.svg",
       message: "You Sure Thimg, hi there a book today. They are looking great!",
       time: "20min ago",
       isOnline: true,
@@ -71,7 +71,7 @@ const RightSidebar: React.FC = () => {
     {
       id: "3",
       userName: "Phoenix Baker",
-      avatar: "/images/avatar.svg",
+      avatar: "/images/Avatar.svg",
       message:
         "I have just published the site again. Looks like it find it. How about if you give me an e...",
       time: "20min ago",
@@ -99,7 +99,7 @@ const RightSidebar: React.FC = () => {
                 className="border p-2 rounded-lg border-[#E5E5E5] space-y-3"
               >
                 <div className="flex items-start space-x-3">
-                  <img src="/images/avatar.svg" />
+                  <img src="/images/Avatar.svg" />
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center justify-between mb-1">
                       <h4 className="font-semibold text-gray-900 text-sm truncate">
@@ -131,7 +131,7 @@ const RightSidebar: React.FC = () => {
                           key={i}
                           className="w-6 h-6 rounded-full border-2 border-white"
                         >
-                          <img src="/images/avatar.svg" />
+                          <img src="/images/Avatar.svg" />
                         </div>
                       ))}
                     </div>
@@ -161,7 +161,7 @@ const RightSidebar: React.FC = () => {
                 className="flex border border-[#E5E5E5] items-start space-x-3 hover:bg-gray-50 p-2 rounded-lg cursor-pointer transition-colors"
               >
                 <div className="relative flex-shrink-0">
-                  <img src="/images/avatar.svg" />
+                  <img src="/images/Avatar.svg" />
                   {message.isOnline && (
                     <div className="absolute bottom-0 right-0 w-3 h-3 bg-green-500 rounded-full border-2 border-white"></div>
                   )}

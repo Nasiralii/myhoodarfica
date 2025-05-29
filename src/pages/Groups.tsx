@@ -28,12 +28,12 @@ const ExploreGroups: React.FC = () => {
         "A place for tech lovers in Lagos to share news, events, and job tips.",
       memberCount: 850,
       memberAvatars: [
-        "/images/avatar.svg",
-        "/images/avatar.svg",
-        "/images/avatar.svg",
-        "/images/avatar.svg",
+        "/images/Avatar.svg",
+        "/images/Avatar.svg",
+        "/images/Avatar.svg",
+        "/images/Avatar.svg",
       ],
-      groupImage: "/images/avatar.svg",
+      groupImage: "/images/Avatar.svg",
     },
     {
       id: "2",
@@ -42,12 +42,12 @@ const ExploreGroups: React.FC = () => {
       description: "Organizing monthly community cleanups & awareness events.",
       memberCount: 120,
       memberAvatars: [
-        "/images/avatar.svg",
-        "/images/avatar.svg",
-        "/images/avatar.svg",
-        "/images/avatar.svg",
+        "/images/Avatar.svg",
+        "/images/Avatar.svg",
+        "/images/Avatar.svg",
+        "/images/Avatar.svg",
       ],
-      groupImage: "/images/avatar.svg",
+      groupImage: "/images/Avatar.svg",
     },
     {
       id: "3",
@@ -57,12 +57,12 @@ const ExploreGroups: React.FC = () => {
         "A group of Dads, share tips, and support fellow mums in Nairobi.",
       memberCount: 430,
       memberAvatars: [
-        "/images/avatar.svg",
-        "/images/avatar.svg",
-        "/images/avatar.svg",
-        "/images/avatar.svg",
+        "/images/Avatar.svg",
+        "/images/Avatar.svg",
+        "/images/Avatar.svg",
+        "/images/Avatar.svg",
       ],
-      groupImage: "/images/avatar.svg",
+      groupImage: "/images/Avatar.svg",
     },
   ]);
 

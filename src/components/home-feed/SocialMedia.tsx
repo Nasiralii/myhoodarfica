@@ -91,14 +91,13 @@ const SocialMedia: React.FC = () => {
       {/* Welcome Post Creation */}
       <div className="bg-white overflow-hidden rounded-xl shadow-sm p-4">
         <div className="flex items-start flex-col space-x-3 mb-4">
-         
             <h2 className="text-lg font-semibold text-gray-900">Welcome Back, Kristin Watson 👋</h2>
             <p className="text-sm text-gray-500">What's on your mind today?</p>
         </div>
 
         <div className="mb-4">
           <div className="flex items-center space-x-3 rounded-lg cursor-text">
-           <img className='w-11 h-11' src="/images/avatar.svg"/>
+           <img className='w-11 h-11' src="/images/Avatar.svg"/>
            <input placeholder='Post an update, sell something, or share with your hood' className='w-full rounded-full p-2 bg-gray-50 focus:outline-none border border-[#E5E5E5]' type='text'/>
           </div>
         </div>
