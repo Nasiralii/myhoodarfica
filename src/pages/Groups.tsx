@@ -89,7 +89,7 @@ const ExploreGroups: React.FC = () => {
               <select
                 value={selectedLocation}
                 onChange={(e) => setSelectedLocation(e.target.value)}
-                className=" bg-white border border-[#E5E5E5] rounded-full px-6 py-3 text-sm focus:outline-none cursor-pointer "
+                className=" bg-white border border-[#E5E5E5] text-[#0A0A0A] rounded-full px-6 py-3 text-sm focus:outline-none cursor-pointer "
               >
                 <option value="">Location</option>
                 <option value="lagos">Lagos</option>
@@ -108,7 +108,7 @@ const ExploreGroups: React.FC = () => {
               <select
                 value={selectedCategory}
                 onChange={(e) => setSelectedCategory(e.target.value)}
-                className=" bg-white border border-[#E5E5E5] rounded-full px-6 py-3 pr-8 text-sm focus:outline-none cursor-pointer "
+                className=" bg-white border border-[#E5E5E5] text-[#0A0A0A] rounded-full px-6 py-3 pr-8 text-sm focus:outline-none cursor-pointer "
               >
                 <option value="">Categories</option>
                 <option value="tech">Technology</option>
@@ -129,7 +129,7 @@ const ExploreGroups: React.FC = () => {
               <select
                 value={selectedStatus}
                 onChange={(e) => setSelectedStatus(e.target.value)}
-                className=" bg-white border border-[#E5E5E5] rounded-full px-6 py-3 text-sm focus:outline-none cursor-pointer "
+                className=" bg-white border border-[#E5E5E5] text-[#0A0A0A] rounded-full px-6 py-3 text-sm focus:outline-none cursor-pointer "
               >
                 <option value="">Joined</option>
                 <option value="joined">Already Joined</option>
@@ -151,7 +151,7 @@ const ExploreGroups: React.FC = () => {
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value)}
-                className="appearance bg-transparent border-none text-sm font-medium focus:outline-none cursor-pointer pointer-events-auto"
+                className="appearance bg-transparent text-[#0a0a0a70] border-none text-sm font-medium focus:outline-none cursor-pointer pointer-events-auto"
               >
                 <option value="Newest">Newest</option>
                 <option value="Most Popular">Most Popular</option>
@@ -161,11 +161,11 @@ const ExploreGroups: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {groups.map((group) => (
             <div
               key={group.id}
-              className="bg-white rounded-2xl border border-[#E5E5E5] overflow-hidden"
+              className="bg-white rounded-2xl border border-[#E5E5E5] hover:shadow-md transition-shadow overflow-hidden"
             >
               <div className="p-6">
                 <div className="flex items-start space-x-4 mb-4">

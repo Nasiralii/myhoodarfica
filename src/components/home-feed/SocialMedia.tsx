@@ -58,9 +58,9 @@ const SocialMedia: React.FC = () => {
  
 
   return (
-    <div className="w-full mx-auto space-y-6 md:p-2 bg-[#FAFAFA]">
-      <div className=" rounded-xl">
-        <div className="space-x-3 flex flex-row overflow-x-auto md:p-0  px-2">
+    <div className="w-full mx-auto md:space-y-6 space-y-3 md:p-2 bg-[#FAFAFA]">
+      <div className=" rounded-xl pt-3">
+        <div className="space-x-3 flex flex-row overflow-x-auto md:p-0 p-2">
           {stories.map((story) => (
             <div key={story.id} className="flex-shrink-0 cursor-pointer">
               {story.isAddStory ? (
@@ -94,20 +94,19 @@ const SocialMedia: React.FC = () => {
             <h2 className="text-lg font-semibold text-gray-900">Welcome Back, Kristin Watson 👋</h2>
             <p className="text-sm text-gray-500">What's on your mind today?</p>
         </div>
-
         <div className="mb-4">
           <div className="flex items-center space-x-3 rounded-lg cursor-text">
            <img className='w-11 h-11' src="/images/Avatar.svg"/>
-           <input placeholder='Post an update, sell something, or share with your hood' className='w-full rounded-full p-2 bg-gray-50 focus:outline-none border border-[#E5E5E5]' type='text'/>
+           <input placeholder='Post an update, sell something, or share with your hood' className='w-full placeholder:text-gray-300 rounded-full p-2 bg-gray-50 focus:outline-none border border-[#E5E5E5]' type='text'/>
           </div>
         </div>
 
         <div className="flex items-center flex-wrap justify-between pr-1">
           <div className="flex justify-between md:space-x-1">
-           <img src="/images/camera.svg"/>
-           <img src="/images/upload-image.svg"/>
-           <img src="/images/calender.svg"/>
-           <img src="/images/map-circle.svg"/>
+           <img className='cursor-pointer' src="/images/camera.svg"/>
+           <img className='cursor-pointer' src="/images/upload-image.svg"/>
+           <img className='cursor-pointer' src="/images/calender.svg"/>
+           <img className='cursor-pointer' src="/images/map-circle.svg"/>
           </div>
           <button className="bg-[#6556FE] flex gap-2 cursor-pointer text-white px-4 py-2 rounded-full text-sm font-semibold transition-colors">
             <img src="/images/postnow.svg"/>

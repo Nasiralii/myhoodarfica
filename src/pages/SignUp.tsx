@@ -320,7 +320,7 @@ const SignUp = () => {
             {/* Submit Button */}
             <button
               type="submit"
-              className="w-full bg-[#6556FE] text-white font-semibold py-4 rounded-full transition-colors duration-200 mb-6"
+              className="w-full bg-[#6556FE] cursor-pointer text-white font-semibold py-4 rounded-full transition-colors duration-200 mb-6"
             >
               Sign Up & Join My Hood
             </button>
@@ -361,8 +361,8 @@ const SignUp = () => {
             <div className="text-center mt-6">
               <span className="">Already have an account? </span>
               <a
-                href="#"
-                className="text-black underline hover:underline font-medium"
+                href="SignIn"
+                className="text-black underline hover:underline font-extrabold"
               >
                 Sign In
               </a>

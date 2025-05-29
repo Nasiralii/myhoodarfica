@@ -12,7 +12,7 @@ export default function HomeFeed() {
       {/* 🔘 Toggle Button — Small Screens Only */}
       <button
         onClick={() => setIsRightSidebarOpen(!isRightSidebarOpen)}
-        className="xl:hidden fixed bottom-6 right-6 z-50 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition-colors"
+        className="xl:hidden fixed bottom-6 right-6 z-50 bg-[#6556FE] text-white p-3 rounded-full shadow-lg transition-colors"
       >
         {isRightSidebarOpen ? (
           // ❌ Close Icon
@@ -75,9 +75,9 @@ export default function HomeFeed() {
               className="p-2  hover:bg-gray-500 rounded-full z-50"
             >
               <svg
-                className="w-5 h-5"
+                className="w-8 h-8"
                 fill="none"
-                stroke="currentColor"
+                stroke="#0A0A0A"
                 viewBox="0 0 24 24"
               >
                 <path

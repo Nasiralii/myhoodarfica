@@ -121,7 +121,7 @@ const PostsComponent: React.FC = () => {
 
             {/* Tag */}
             {post.tag && (
-              <div className={`inline-block px-3 py-1 rounded-full text-xs font-medium mb-3 `}>
+              <div className={`inline-block px-3 text-[#0A0A0A] py-1 rounded-full text-xs font-medium mb-3 `}>
                 {post.tag}
               </div>
             )}
@@ -156,25 +156,25 @@ const PostsComponent: React.FC = () => {
           {/* Post Actions */}
           <div className="px-4 py-3 border-t border-gray-50">
             <div className="flex items-center justify-between">
-              <div className="flex items-center space-x-6">
+              <div className="flex items-center space-x-2 md:space-x-6">
                 <button className="flex border border-[#E5E5E5] rounded-full p-2 items-center space-x-2">
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5" fill="none" stroke="#0A0A0A" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                   </svg>
-                  <span className="text-sm font-medium">{post.likes} Likes</span>
+                  <span className="text-sm text-[#0A0A0A] font-medium">{post.likes} Likes</span>
                 </button>
 
                 <button className="flex border border-[#E5E5E5] rounded-full p-2 items-center space-x-2">
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5" fill="none" stroke="#0A0A0A" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                   </svg>
-                  <span className="text-sm font-medium">{post.comments} Comments</span>
+                  <span className="text-sm font-medium text-[#0A0A0A]">{post.comments} Comments</span>
                 </button>
               </div>
 
               <button className="flex border border-[#E5E5E5] rounded-full p-2 px-4 items-center space-x-2 ">
                <img src="/images/share.svg"/>
-                <span className="text-sm font-medium">Share</span>
+                <span className="text-sm font-medium text-[#0A0A0A]">Share</span>
               </button>
             </div>
           </div>

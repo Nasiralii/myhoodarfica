@@ -75,9 +75,9 @@ const ForSale: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 p-4 sm:p-6">
-      <div className="max-w-7xl mx-auto">
+      <div className="container mx-auto">
         {/* Header */}
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6">
+        <div className="flex flex-row items-baseline-last justify-between md:mb-6">
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 sm:mb-0">
             For Sale & Free
           </h1>
@@ -96,7 +96,7 @@ const ForSale: React.FC = () => {
               <select
                 value={selectedLocation}
                 onChange={(e) => setSelectedLocation(e.target.value)}
-                className=" bg-white border border-[#E5E5E5] rounded-full px-6 py-3 text-sm focus:outline-none cursor-pointer "
+                className=" bg-white border text-[#0A0A0A] border-[#E5E5E5] rounded-full px-6 py-3 text-sm focus:outline-none cursor-pointer "
               >
                 <option value="">Location</option>
                 <option value="lagos">Lagos</option>
@@ -115,7 +115,7 @@ const ForSale: React.FC = () => {
               <select
                 value={selectedCategory}
                 onChange={(e) => setSelectedCategory(e.target.value)}
-                className=" bg-white border border-[#E5E5E5] rounded-full px-6 py-3 pr-8 text-sm focus:outline-none cursor-pointer "
+                className=" bg-white border text-[#0A0A0A] border-[#E5E5E5] rounded-full px-6 py-3 pr-8 text-sm focus:outline-none cursor-pointer "
               >
                 <option value="">Categories</option>
                 <option value="electronics">Electronics</option>
@@ -135,7 +135,7 @@ const ForSale: React.FC = () => {
               <select
                 value={selectedStatus}
                 onChange={(e) => setSelectedStatus(e.target.value)}
-                className=" bg-white border border-[#E5E5E5] rounded-full px-6 py-3 text-sm focus:outline-none cursor-pointer "
+                className=" bg-white border text-[#0A0A0A] border-[#E5E5E5] rounded-full px-6 py-3 text-sm focus:outline-none cursor-pointer "
               >
                 <option value="">Status</option>
                 <option value="available">Available</option>
@@ -154,7 +154,7 @@ const ForSale: React.FC = () => {
               <select
                 value={selectedPriceRange}
                 onChange={(e) => setSelectedPriceRange(e.target.value)}
-                className="bg-white border border-[#E5E5E5] rounded-full px-6 py-3 text-sm focus:outline-none cursor-pointer "
+                className="bg-white border text-[#0A0A0A] border-[#E5E5E5] rounded-full px-6 py-3 text-sm focus:outline-none cursor-pointer "
               >
                 <option value="">Price Range</option>
                 <option value="free">Free</option>
@@ -171,14 +171,14 @@ const ForSale: React.FC = () => {
           </div>
 
           {/* Sort By */}
-          <div className="flex border bg-white border-[#E5E5E5] rounded-full px-2 py-3 items-center justify-between">
+          <div className="flex border bg-white border-[#E5E5E5] md:mt-0 mt-2 rounded-full px-2 py-3 items-center justify-between">
             <div className="flex items-center space-x-2 pointer-events-none">
               <img src="/images/sort-by.svg" alt="Sort" className="w-5 h-5" />
               <span className="text-sm text-gray-600">Sort by:</span>
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value)}
-                className="appearance bg-transparent border-none text-sm font-medium focus:outline-none cursor-pointer pointer-events-auto"
+                className="appearance text-[#0a0a0a77] bg-transparent border-none text-sm font-medium focus:outline-none cursor-pointer pointer-events-auto"
               >
                 <option value="Most Relevant">Most Relevant</option>
                 <option value="Newest">Newest</option>
@@ -194,7 +194,7 @@ const ForSale: React.FC = () => {
           {products.map((product) => (
             <div
               key={product.id}
-              className="bg-white min-h-fit rounded-2xl shadow-sm overflow-hidden hover:shadow-md transition-shadow"
+              className="bg-white min-h-fit rounded-2xl border border-[#E5E5E5] overflow-hidden hover:shadow-md transition-shadow"
             >
               {/* Product Image */}
               <div className="relative h-[229px] rounded-2xl w-full p-2 bg-white">

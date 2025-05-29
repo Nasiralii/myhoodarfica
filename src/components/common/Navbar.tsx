@@ -162,7 +162,7 @@ const Navbar = () => {
               Why Choose Us
             </button>
             <div className="flex flex-col space-y-3 pt-4 border-t border-gray-100">
-              <Link href="/login" className="font-bold hover:text-[#6556FE] transition-all duration-300" onClick={() => setIsMenuOpen(false)}>
+              <Link href="/SignIn" className="font-bold hover:text-[#6556FE] transition-all duration-300" onClick={() => setIsMenuOpen(false)}>
                 Log in
               </Link>
               <Link 
